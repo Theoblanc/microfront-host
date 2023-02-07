@@ -1,10 +1,10 @@
 import styled from "@emotion/styled";
 
 type ButtonProps = {
-  colors: {
+  colors?: {
     body: string;
   };
-  spacing: {
+  spacing?: {
     unit: number;
   };
 };

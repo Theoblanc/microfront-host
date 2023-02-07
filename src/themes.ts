@@ -25,4 +25,4 @@ export const dark = {
   },
 };
 
-export type Theme = typeof light;
+export type Theme = typeof light & typeof dark;
